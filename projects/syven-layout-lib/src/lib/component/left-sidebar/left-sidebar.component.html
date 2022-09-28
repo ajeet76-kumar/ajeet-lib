@@ -1,0 +1,53 @@
+<div
+  class="sidebar-v4 pinned"
+  (mouseover)="showLeftNav()"
+  (mouseleave)="hideLeftNav()"
+  [ngClass]="isShow ? 'subpanelOpen' : 'subpanelClosed'"
+>
+  <ul class="nav_list v4" cdkDropList (cdkDropListDropped)="dropLeft($event)">
+    <li>
+      <a
+        href="javascript:void(0)"
+        class="sidebar-link v6 no-arrow"
+        (click)="showNavs()"
+        ><i class="icon-left icon-hamburger" aria-hidden="true"></i
+      ></a>
+    </li>
+    <li
+      *ngFor="let item of userInformation.leftNavItems"
+      cdkDrag
+      class="textv4"
+    >
+      <a
+        href="javascript:void(0)"
+        [attr.data-bs-target]="'#' + item.name.replace(' ', '')"
+        class="sidebar-link-anchor"
+        [attr.aria-expanded]="item.open ? 'true' : 'false'"
+        [ngClass]="item.open ? 'selectedcls-v4' : ''"
+        ><i
+          class="icon-left extracss"
+          [ngClass]="item.icon"
+          aria-hidden="true"
+        ></i
+      ></a>
+      <ul
+        class="sub-elements v4"
+        [attr.id]="item.name.replace(' ', '')"
+        [ngClass]="isShow && item.open ? 'show' : ''"
+      >
+        <li class="links_name v4">{{ item.name }}</li>
+        <li *ngFor="let it of item.child" class="sidebar-sub-listitem">
+          <a href="javascript:void(0)"
+            ><i class="icon-left sidenav-sub-icon" aria-hidden="true"></i>
+            <span class="sidenav-links_name">{{ it.name }}</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="showapp-list">
+      <a href="javascript:void(0)" class="sidebar-link v6 no-arrow"
+        ><i class="icon-left icon-add-edit" aria-hidden="true"></i
+      ></a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_4588" data-name="Group 4588" transform="translate(-62 -394)">
+    <rect id="Rectangle_1499" data-name="Rectangle 1499" width="36" height="36" rx="3" transform="translate(62 394)" fill="#d35230"/>
+    <g id="icons8-microsoft-powerpoint" transform="translate(69 400.787)">
+      <path id="Path_5707" data-name="Path 5707" d="M29,22.319h7.66a.426.426,0,0,0,.426-.426V7.426A.426.426,0,0,0,36.66,7H29" transform="translate(-16.085 -3.447)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_5708" data-name="Path 5708" d="M29,36h4.681" transform="translate(-16.085 -20.106)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_5709" data-name="Path 5709" d="M10.967,15.66H8.158v7.962H9.951V20.879h.855a3.421,3.421,0,0,0,2.307-.741,2.434,2.434,0,0,0,.863-1.94Q13.977,15.66,10.967,15.66Zm-.311,3.859H9.951V17.037h.706q1.432,0,1.432,1.227Q12.089,19.519,10.657,19.519Z" transform="translate(-4.112 -8.422)" fill="#fff"/>
+      <path id="Path_5710" data-name="Path 5710" d="M1,3.269V19.156l11.915,2.269V1Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_5711" data-name="Path 5711" d="M29.594,15.376A2.968,2.968,0,0,1,31.043,15v2.979h2.979a2.98,2.98,0,0,1-4.41,2.613" transform="translate(-16.426 -8.043)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_5712" data-name="Path 5712" d="M36,12a2.979,2.979,0,0,1,2.979,2.979H36Z" transform="translate(-20.106 -6.319)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

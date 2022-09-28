@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.277" height="12.277" viewBox="0 0 12.277 12.277">
+  <g id="plus-circle" transform="translate(0.6 0.6)">
+    <g id="Group_3360" data-name="Group 3360" transform="translate(0 0)">
+      <circle id="Ellipse_408" data-name="Ellipse 408" cx="5.538" cy="5.538" r="5.538" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <g id="Group_3359" data-name="Group 3359" transform="translate(2.77 2.769)">
+        <line id="Line_103" data-name="Line 103" y2="5.538" transform="translate(2.769 0)" fill="none" stroke="#0582be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+        <line id="Line_104" data-name="Line 104" x2="5.538" transform="translate(0 2.769)" fill="none" stroke="#0582be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+      </g>
+    </g>
+  </g>
+</svg>

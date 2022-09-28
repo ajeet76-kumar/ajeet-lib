@@ -1,0 +1,19 @@
+<!-- <p>right-sidebar works!</p> -->
+
+<div
+  class="rightsidebar"
+  [ngClass]="{ rightclose: userInformation.rightNavClose == true }"
+>
+  <ul cdkDropList (cdkDropListDropped)="drop($event)">
+    <li *ngFor="let item of userInformation.rightNavItems" cdkDrag>
+      <a href="{{ item.link }}" title="{{ item.name }}" target="_blank"
+        ><i class="icon" [ngClass]="item.icon" aria-hidden="true"></i
+      ></a>
+    </li>
+  </ul>
+  <div class="right-sid-after" (click)="rightPanel()">
+    <span class="angle-left"
+      ><i class="fa fa-angle-left" aria-hidden="true"></i
+    ></span>
+  </div>
+</div>

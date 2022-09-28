@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="24" viewBox="0 0 48 24">
+  <g id="Bottom_Arrow" data-name="Bottom Arrow" transform="translate(-5 -752)">
+    <rect id="Rectangle_1480" data-name="Rectangle 1480" width="48" height="24" transform="translate(5 752)" fill="#eee"/>
+    <path id="Path_2920" data-name="Path 2920" d="M45.413,206.631l-3.56-3.561a.44.44,0,0,0-.622,0l-.415.415a.439.439,0,0,0,0,.621l2.822,2.835-2.822,2.835a.439.439,0,0,0,0,.621l.415.415a.44.44,0,0,0,.622,0l3.56-3.561A.439.439,0,0,0,45.413,206.631Z" transform="translate(-11.542 557.058)" fill="#666"/>
+    <path id="Path_2920-2" data-name="Path 2920" d="M45.413,206.631l-3.56-3.561a.44.44,0,0,0-.622,0l-.415.415a.439.439,0,0,0,0,.621l2.822,2.835-2.822,2.835a.439.439,0,0,0,0,.621l.415.415a.44.44,0,0,0,.622,0l3.56-3.561A.439.439,0,0,0,45.413,206.631Z" transform="translate(-16.688 557.058)" fill="#666"/>
+    <rect id="Rectangle_1479" data-name="Rectangle 1479" width="48" height="1" transform="translate(5 752)" fill="#eee"/>
+  </g>
+</svg>
