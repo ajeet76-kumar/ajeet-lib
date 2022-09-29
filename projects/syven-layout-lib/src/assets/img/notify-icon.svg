@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
-  <g id="Group_4404" data-name="Group 4404" transform="translate(-1023 -69)">
-    <rect id="Rectangle_1430" data-name="Rectangle 1430" width="36" height="36" rx="18" transform="translate(1023 69)" fill="none"/>
-    <path id="notifications_FILL0_wght400_GRAD0_opsz48" d="M8,19.3V17.95H9.89V11.065A5.432,5.432,0,0,1,11,7.7,4.8,4.8,0,0,1,13.94,5.845V5.192a1.105,1.105,0,0,1,.371-.855,1.339,1.339,0,0,1,1.777,0,1.105,1.105,0,0,1,.371.855v.653A4.846,4.846,0,0,1,19.407,7.7a5.4,5.4,0,0,1,1.125,3.364V17.95H22.4V19.3ZM15.2,12.663ZM15.2,22a1.745,1.745,0,0,1-1.26-.529A1.715,1.715,0,0,1,13.4,20.2H17A1.805,1.805,0,0,1,15.2,22Zm-3.96-4.05h7.943V11.065A3.9,3.9,0,0,0,18.035,8.23a3.979,3.979,0,0,0-5.636,0,3.88,3.88,0,0,0-1.159,2.835Z" transform="translate(1026 74)" fill="#666"/>
-    <circle id="Ellipse_516" data-name="Ellipse 516" cx="4.5" cy="4.5" r="4.5" transform="translate(1043 77)" fill="#ff3649"/>
-  </g>
-</svg>
