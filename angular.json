@@ -22,7 +22,7 @@
             "styles": [
               "src/styles.css",
               "src/custom-theme.scss",
-              "src/assets/css/styless.scss"
+              "src/assets/css/styles.scss"
             ],
             "scripts": []
           },
