@@ -102,6 +102,7 @@
           "options": {
             "project": "projects/syven-layout-lib/ng-package.json"
           },
+
           "configurations": {
             "production": {
               "tsConfig": "projects/syven-layout-lib/tsconfig.lib.prod.json"

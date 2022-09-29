@@ -1,0 +1,7 @@
+<svg id="icon-add-app" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <rect id="Rectangle_1099" data-name="Rectangle 1099" width="30" height="30" rx="5" fill="none"/>
+  <g id="Group_4435" data-name="Group 4435" transform="translate(6.868 7.169)">
+    <path id="check_indeterminate_small_FILL0_wght400_GRAD0_opsz48" d="M14,25.5v-3H30v3Z" transform="translate(-14 -16)" fill="#666"/>
+    <path id="check_indeterminate_small_FILL0_wght400_GRAD0_opsz48-2" data-name="check_indeterminate_small_FILL0_wght400_GRAD0_opsz48" d="M0,3V0H16V3Z" transform="translate(9.5) rotate(90)" fill="#666"/>
+  </g>
+</svg>

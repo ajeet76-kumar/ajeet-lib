@@ -1,6 +1,8 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/syven-layout-lib",
+  "assets": ["CHANGELOG.md", "./src/assets/", "./src/assets/css/styles.scss"],
+
   "lib": {
     "entryFile": "src/public-api.ts"
   }

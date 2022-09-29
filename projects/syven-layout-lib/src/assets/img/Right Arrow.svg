@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <filter id="Ellipse_521" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ccc"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Right_Arrow" data-name="Right Arrow" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Ellipse_521)">
+      <circle id="Ellipse_521-2" data-name="Ellipse 521" cx="10" cy="10" r="10" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <path id="Path_2920" data-name="Path 2920" d="M45.413,206.631l-3.56-3.561a.44.44,0,0,0-.622,0l-.415.415a.439.439,0,0,0,0,.621l2.822,2.835-2.822,2.835a.439.439,0,0,0,0,.621l.415.415a.44.44,0,0,0,.622,0l3.56-3.561A.439.439,0,0,0,45.413,206.631Z" transform="translate(-32.543 -196.942)" fill="#666"/>
+  </g>
+</svg>
