@@ -5,18 +5,19 @@ import { LayoutModel } from './model/layout.model';
   selector: 'lib-syven-layout-lib',
   template: `
     <div>
-      <header
+      <headerbar
         [profileImage]="profileImage"
         [appIconPath]="appIconPath"
         [homeUrlPath]="homeUrlPath"
         [profileMenuList]="profileMenuList"
         [userProfileImage]="userProfileImage"
         (childSearchEvent)="parentSearchEvent($event)"
-      ></header>
+      ></headerbar>
       <left-sidebar></left-sidebar>
       <right-sidebar></right-sidebar>
     </div>
   `,
+  // styleUrls: ['../assets/scss/custom-theme.scss'],
   styles: [
     `
       header {

@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'syven-lib';
-  appIconPath: any = 'assets/img/banker-one-logo.svg';
+  appIconPath: any = 'assets/img/icons/logo.png';
   homeUrlPath: any = '/';
   profileMenuList = [
     { nam: 'My Profile', url: '/' },

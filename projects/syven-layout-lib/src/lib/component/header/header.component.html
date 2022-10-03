@@ -1,192 +1,156 @@
-<nav>
-  <div class="header-logo v4">
-    <div class="logo">
-      <a [routerLink]="homeUrlPath"> <img alt="" [src]="appIconPath" /> </a>
-    </div>
-  </div>
-  <div class="updatedsearch">
-    <div class="search-icon-v4 expandsearches">
-      <div class="search-icon2-v4">
-        <button mat-button>
-          <img alt="" src="assets/img/black-search.svg" />
-        </button>
+<header>
+  <nav>
+    <div class="header-logo v4">
+      <div class="logo">
+        <a [routerLink]="homeUrlPath"> <img alt="" [src]="appIconPath" /> </a>
       </div>
+    </div>
+    <div class="updatedsearch">
+      <div class="search-icon-v4 expandsearches">
+        <div class="search-icon2-v4">
+          <button mat-button>
+            <img alt="" src="assets/img/black-search.svg" />
+          </button>
+        </div>
 
-      <div class="expanded-search">
-        <form>
-          <div class="form-group">
-            <input
-              type="text"
-              #search
-              class="form-control"
-              (keyup)="onSearchClick(search.value)"
-              (keyEnter)="onSearchClick(search.value)"
-              id="serach"
-              placeholder="Search or type something..."
-            />
-          </div>
-        </form>
+        <div class="expanded-search">
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                #search
+                class="form-control"
+                (keyup)="onSearchClick(search.value)"
+                (keyEnter)="onSearchClick(search.value)"
+                id="serach"
+                placeholder="Search or type something..."
+              />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="header-icon">
-    <ul>
-      <li class="notifi-icon">
-        <a href="#"><img alt="" src="assets/img/notify-icon.svg" /></a>
-        <div class="notific-div">
-          <div class="tabs">
-            <ul id="tabs-nav">
-              <li><a href="#tab1">Required Actions</a></li>
-              <li><a href="#tab2">Notifications</a></li>
-            </ul>
-            <div id="tabs-content">
-              <div id="tab1" class="tab-content" style="display: none">
-                <div class="notific-div-tab1-ul">
-                  <div class="image">
-                    <img src="assets/img/notifica/circle1.svg" alt="" />
-                    <img
-                      src="assets/img/notifica/Ellipse-green.svg"
-                      class="green-img"
-                      alt=""
-                    />
+    <div class="header-icon">
+      <ul>
+        <li class="notifi-icon">
+          <a href="#"><img alt="" src="assets/img/notify-icon.svg" /></a>
+          <div class="notific-div">
+            <div class="tabs">
+              <ul id="tabs-nav">
+                <li><a href="#tab1">Required Actions</a></li>
+                <li><a href="#tab2">Notifications</a></li>
+              </ul>
+              <div id="tabs-content">
+                <div id="tab1" class="tab-content" style="display: none">
+                  <div class="notific-div-tab1-ul">
+                    <div class="image">
+                      <img src="assets/img/notifica/circle1.svg" alt="" />
+                      <img
+                        src="assets/img/notifica/Ellipse-green.svg"
+                        class="green-img"
+                        alt=""
+                      />
+                    </div>
+                    <div class="notific-div-tab1-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit<br /><span>1m ago</span>
+                      </p>
+                    </div>
                   </div>
-                  <div class="notific-div-tab1-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /><span
-                        >1m ago</span
-                      >
-                    </p>
+                  <div class="notific-div-tab1-ul">
+                    <div class="image">
+                      <img src="assets/img/notifica/circle1.svg" alt="" />
+                    </div>
+                    <div class="notific-div-tab1-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit<br /><span>25m ago</span>
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="notific-div-tab1-ul">
-                  <div class="image">
-                    <img src="assets/img/notifica/circle1.svg" alt="" />
+                  <div class="notific-div-tab1-ul">
+                    <div class="image">
+                      <img src="assets/img/notifica/circle1.svg" alt="" />
+                    </div>
+                    <div class="notific-div-tab1-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit<br /><span>32m ago</span>
+                      </p>
+                    </div>
                   </div>
-                  <div class="notific-div-tab1-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /><span
-                        >25m ago</span
-                      >
-                    </p>
-                  </div>
-                </div>
-                <div class="notific-div-tab1-ul">
-                  <div class="image">
-                    <img src="assets/img/notifica/circle1.svg" alt="" />
-                  </div>
-                  <div class="notific-div-tab1-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /><span
-                        >32m ago</span
-                      >
-                    </p>
-                  </div>
-                </div>
-                <div class="notific-div-tab1-ul" style="margin-bottom: 10px">
-                  <div class="image">
-                    <img src="assets/img/notifica/circle1.svg" alt="" />
-                  </div>
-                  <div class="notific-div-tab1-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /><span
-                        >1h ago</span
-                      >
-                    </p>
+                  <div class="notific-div-tab1-ul" style="margin-bottom: 10px">
+                    <div class="image">
+                      <img src="assets/img/notifica/circle1.svg" alt="" />
+                    </div>
+                    <div class="notific-div-tab1-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit<br /><span>1h ago</span>
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div id="tab2" class="tab-content" style="display: block">
-                <div class="notific-div-tab1-ul">
-                  <div class="image">
-                    <img src="assets/img/notifica/circle1.svg" alt="" />
-                    <img
-                      src="assets/img/notifica/Ellipse-green.svg"
-                      class="green-img"
-                      alt=""
-                    />
+                <div id="tab2" class="tab-content" style="display: block">
+                  <div class="notific-div-tab1-ul">
+                    <div class="image">
+                      <img src="assets/img/notifica/circle1.svg" alt="" />
+                      <img
+                        src="assets/img/notifica/Ellipse-green.svg"
+                        class="green-img"
+                        alt=""
+                      />
+                    </div>
+                    <div class="notific-div-tab1-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit<br /><span>1m ago</span>
+                      </p>
+                    </div>
                   </div>
-                  <div class="notific-div-tab1-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /><span
-                        >1m ago</span
-                      >
-                    </p>
+                  <div class="notific-div-tab1-ul">
+                    <div class="image">
+                      <img src="assets/img/notifica/circle1.svg" alt="" />
+                    </div>
+                    <div class="notific-div-tab1-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit<br /><span>25m ago</span>
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="notific-div-tab1-ul">
-                  <div class="image">
-                    <img src="assets/img/notifica/circle1.svg" alt="" />
+                  <div class="notific-div-tab1-ul">
+                    <div class="image">
+                      <img src="assets/img/notifica/circle1.svg" alt="" />
+                    </div>
+                    <div class="notific-div-tab1-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit<br /><span>32m ago</span>
+                      </p>
+                    </div>
                   </div>
-                  <div class="notific-div-tab1-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /><span
-                        >25m ago</span
-                      >
-                    </p>
-                  </div>
-                </div>
-                <div class="notific-div-tab1-ul">
-                  <div class="image">
-                    <img src="assets/img/notifica/circle1.svg" alt="" />
-                  </div>
-                  <div class="notific-div-tab1-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /><span
-                        >32m ago</span
-                      >
-                    </p>
-                  </div>
-                </div>
-                <div class="notific-div-tab1-ul" style="margin-bottom: 10px">
-                  <div class="image">
-                    <img src="assets/img/notifica/circle1.svg" alt="" />
-                  </div>
-                  <div class="notific-div-tab1-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit<br /><span
-                        >1h ago</span
-                      >
-                    </p>
+                  <div class="notific-div-tab1-ul" style="margin-bottom: 10px">
+                    <div class="image">
+                      <img src="assets/img/notifica/circle1.svg" alt="" />
+                    </div>
+                    <div class="notific-div-tab1-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit<br /><span>1h ago</span>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </li>
-      <!-- <li class="three-dots" style="margin-right: 10px">
-        <a href="#"><img alt="" src="assets/img/three-dots.svg" /></a>
-      </li> -->
-
-      <li class="user-icon">
-        <button mat-button [matMenuTriggerFor]="menu">
-          <img
-            alt=""
-            src="{{
-              userProfileImage && userProfileImage != undefined
-                ? 'data:image/jpeg;base64,' + userProfileImage
-                : 'assets/img/profile.svg'
-            }}"
-            class="changeprofile"
-          />
-        </button>
-        <mat-menu #menu="matMenu" class="user-menu">
-          <button mat-menu-item><a href="#">My Profile</a></button>
-          <button
-            mat-menu-item
-            data-bs-toggle="modal"
-            data-bs-target="#screen-setting"
-          >
-            <a href="#">My Settings</a>
-          </button>
-          <button mat-menu-item><a href="#">Help & feedback</a></button>
-          <button mat-menu-item id="logout-btn" (click)="logout()">
-            <a href="#"
-              >Log out <img src="assets/img/icon/icon-logout.svg" alt=""
-            /></a>
-          </button>
-        </mat-menu>
-      </li>
-    </ul>
-  </div>
-</nav>
+        </li>
+        <li class="user-icon">
+          <profile></profile>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

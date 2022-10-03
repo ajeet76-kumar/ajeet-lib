@@ -1,0 +1,21 @@
+<button mat-button [matMenuTriggerFor]="menu">
+  <img
+    alt=""
+    src="{{
+      userProfileImage && userProfileImage != undefined
+        ? 'data:image/jpeg;base64,' + userProfileImage
+        : 'assets/img/profile.svg'
+    }}"
+    class="changeprofile"
+  />
+</button>
+<mat-menu #menu="matMenu" class="user-menu">
+  <button mat-menu-item><a href="#">My Profile</a></button>
+  <button mat-menu-item data-bs-toggle="modal" data-bs-target="#screen-setting">
+    <a href="#">My Settings</a>
+  </button>
+  <button mat-menu-item><a href="#">Help & feedback</a></button>
+  <button mat-menu-item id="logout-btn" (click)="logout()">
+    <a href="#">Log out <img src="assets/img/icon/icon-logout.svg" alt="" /></a>
+  </button>
+</mat-menu>
